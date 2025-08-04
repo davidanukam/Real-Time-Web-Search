@@ -178,8 +178,8 @@ export default function Home() {
 
             {!showApiKeyInput && !apiKey && (
               <p className="text-sm text-gray-600">
-                Click "Configure API Key" to add your RapidAPI key and start
-                searching
+                Click &quot;Configure API Key&quot; to add your RapidAPI key and
+                start searching
               </p>
             )}
 
@@ -245,7 +245,7 @@ export default function Home() {
                         <span>
                           About{" "}
                           {formatNumber(results.data.total_organic_results)}{" "}
-                          results for "{results.parameters?.q}"
+                          results for &quot;{results.parameters?.q}&quot;
                         </span>
                       </div>
                       {results.request_id && (
